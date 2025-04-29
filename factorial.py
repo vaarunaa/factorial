@@ -1,8 +1,8 @@
 def factorial(n):
-  result = 1
-  for i in range(2,n+1):
-       result *=i
-  return result 
+  if n==0 or n==1:
+    retuirn 1
+  else:
+    return n*factorial(n-1)
 num=int(input("enter a number:"))
 print(f"Factorial of{num} is {factorial(num)}")
     
